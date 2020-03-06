@@ -9,9 +9,15 @@
 <body>
     <div class="bar">
         <label for="number">Original: </label>
-        <input type="number" class="crdnum" name="cardnum">
-        <button type="button">Draw</button>
+        <input type="number" class="cardnum" id="cardnum" name="cardnum">
+        <button type="button" onclick="drawcard()">Draw</button>
         <button type="button">Sort</button>
+    </div>
+    <div class="containercards">
+        <div class="card">
+            <div class="number">
+            </div>
+        </div>
     </div>
 
 
