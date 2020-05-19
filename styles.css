@@ -1,27 +1,25 @@
-body{
-    background-color: green;
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(36, 93, 205);
 }
-
-.bar{
-    height: 30px;
+.bar {
+    margin-left: 2%;
+    margin-top: 1%;
 }
-
-.containercards{
-    height: 180px;
-
-}
-
 .card {
     background-color: #ffffff;
     border-radius: 10px;
-    height: 100%;
-    margin: 2% ;
-    width: 120px;
+    height: 150px;
+    margin:5px;
+    width: 90px;
+    display: inline-block;
 }
 
 .card .number {
     display: block;
-    font-size: 52px;
+    font-size: 30px;
     text-align: center;
     width: 100%;
 }
@@ -32,16 +30,16 @@ body{
     display: block;
     text-align: left;
     height: 40%;
-    padding-left: 0px;
+    padding-left: 10px;
 }
 .card .spade::after {
     content: '\2660';
     width: 100%;
     display: block;
-    text-align: left;
-    height: 60px;
-    padding-right: 0px;
-    transform: rotate(180deg);
+    text-align: right;
+    height: 40px;
+    padding-right: 10px;
+    /*transform: scaleY(-1);*/
 }
 
 .card .cubs::before {
@@ -50,16 +48,16 @@ body{
     display: block;
     text-align: left;
     height: 40%;
-    padding-left: 0px;
+    padding-left: 10px;
 }
 .card .cubs::after {
     content: '\2663';
     width: 100%;
     display: block;
-    text-align: left;
-    height: 60px;
-    padding-right: 0px;
-    transform: rotate(180deg);
+    text-align: right;
+    height: 40px;
+    padding-right: 10px;
+    /*transform: rotate(180deg);*/
 }
 
 .card .hearts::before {
@@ -68,17 +66,17 @@ body{
     display: block;
     text-align: left;
     height: 40%;
-    padding-left: 0px;
+    padding-left: 10px;
     color: red;
 }
 .card .hearts::after {
     content: '\2665';
     width: 100%;
     display: block;
-    text-align: left;
-    height: 60px;
-    padding-right: 0px;
-    transform: rotate(180deg);
+    text-align: right;
+    height: 40px;
+    padding-right: 10px;
+    /*transform: rotate(180deg);*/
     color: red;
 }
 
@@ -88,16 +86,16 @@ body{
     display: block;
     text-align: left;
     height: 40%;
-    padding-left: 0px;
+    padding-left: 10px;
     color: red;
 }
 .card .diamonds::after {
     content: '\2666';
     width: 100%;
     display: block;
-    text-align: left;
-    height: 60px;
-    padding-right: 0px;
-    transform: rotate(180deg);
+    text-align: right;
+    height: 40px;
+    padding-right: 10px;
+    /*transform: rotate(180deg);*/
     color: red;
 }
